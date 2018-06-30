@@ -117,6 +117,11 @@ namespace OhmValueCalculator.Services
                 BandInformation bandC = bandInformationDictionary[bandCColor];
                 BandInformation bandD = bandInformationDictionary[bandDColor];
 
+                if (bandA.SignificantFigures == null || bandB.SignificantFigures == null || bandD.Tolerance == null)
+                {
+                    return null;
+                }
+
                 double Resistance = Int32.Parse(bandA.SignificantFigures.ToString() + bandB.SignificantFigures.ToString()) * bandC.Multiplier;
                 double Variance = Resistance * (double)bandD.Tolerance;
 
