@@ -56,6 +56,9 @@ public interface IOhmValueCalculator
   - dotnet restore
   - dotnet test OhmValueCalculator.Tests -v n
   
+## Continuous Integration (CI)
+- Located at https://shahmirn.visualstudio.com/OhmValueCalculatorDotNetCore/_build
+  
 ## Interface Deviations
 The original problem specified an interface that returns an int.
 
