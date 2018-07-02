@@ -44,7 +44,7 @@ public interface IOhmValueCalculator
   - dotnet run --project OhmValueCalculator
 
 - Go to http://localhost:56111/api/calculator/bandAColor/red/bandBColor/violet/bandCColor/green/bandDColor/brown
-- To see results for other others, replace the band colors in the URL with other valid colors. Refer to http://en.wikipedia.org/wiki/Electronic_color_code to see other valid color combinations.
+- To see results for other colors, replace the band colors in the URL with other valid colors. Refer to http://en.wikipedia.org/wiki/Electronic_color_code to see other valid color combinations.
   
 ## Running tests
 - If using Visual Studio
