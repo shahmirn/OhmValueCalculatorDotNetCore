@@ -8,6 +8,7 @@ namespace OhmValueCalculator.Domain
     public class OhmValue
     {
         public double Resistance { get; set; }
+        public double Tolerance { get; set; }
         public double Minimum { get; set; }
         public double Maximum { get; set; }
     }

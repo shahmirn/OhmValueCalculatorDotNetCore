@@ -128,6 +128,7 @@ namespace OhmValueCalculator.Services
                 OhmValue ohmValue = new OhmValue
                 {
                     Resistance = Resistance,
+                    Tolerance = (double)bandD.Tolerance,
                     Minimum = Resistance - Variance,
                     Maximum = Resistance + Variance
                 };
