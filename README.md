@@ -37,13 +37,14 @@ public interface IOhmValueCalculator
 - If using Visual Studio
   - open OhmValueCalculator.sln
   - Go to Debug, then Start Debugging
-  - Go to http://localhost:56111/api/calculator/bandAColor/red/bandBColor/violet/bandCColor/green/bandDColor/brown
   
 - If using the command line / .NET Core 2.1 SDK
   - cd OhmValueCalculatorDotNetCore
   - dotnet restore
   - dotnet run --project OhmValueCalculator
-  - Go to http://localhost:56111/api/calculator/bandAColor/red/bandBColor/violet/bandCColor/green/bandDColor/brown
+
+- Go to http://localhost:56111/api/calculator/bandAColor/red/bandBColor/violet/bandCColor/green/bandDColor/brown
+- To see results for other others, replace the band colors in the URL with other valid colors. Refer to http://en.wikipedia.org/wiki/Electronic_color_code to see other valid color combinations.
   
 ## Running tests
 - If using Visual Studio
