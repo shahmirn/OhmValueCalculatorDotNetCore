@@ -33,12 +33,12 @@ public interface IOhmValueCalculator
 
 ## Running Locally
 - git clone https://github.com/shahmirn/OhmValueCalculatorDotNetCore.git
-- Either install Visual Studio 2017 with the "ASP.NET and Web Development" workload, or install .NET Core 2.1 SDK
+- Either install Visual Studio 2017 with the "ASP.NET and Web Development" workload, or install .NET Core 2.2 SDK
 - If using Visual Studio
   - open OhmValueCalculator.sln
   - Go to Debug, then Start Debugging
   
-- If using the command line / .NET Core 2.1 SDK
+- If using the command line / .NET Core 2.2 SDK
   - cd OhmValueCalculatorDotNetCore
   - dotnet restore
   - dotnet run --project OhmValueCalculator
@@ -51,7 +51,7 @@ public interface IOhmValueCalculator
   - Go to Build, then Build Solution
   - Go to Test, Windows, then Test Explorer
   - Click on Run All
-- If using command line / .NET Core 2.1 SDK
+- If using command line / .NET Core 2.2 SDK
   - cd OhmValueCalculatorDotNetCore
   - dotnet restore
   - dotnet test OhmValueCalculator.Tests -v n
